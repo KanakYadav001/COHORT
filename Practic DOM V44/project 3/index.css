@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+
+.post {
+  position: relative;
+  width: 200px;
+  height: 280px;
+}
+.post .post1 {
+  width: 200px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.post .like {
+  width: 50px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: none;
+}

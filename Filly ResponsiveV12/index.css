@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(250, 249, 246);
+}
+
+.line {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.34);
+}
+
+main {
+  padding: 20px;
+}
+main .link {
+  margin-top: 10px;
+}
+main .sec2 {
+  margin-top: 20px;
+}
+main .sec2 p {
+  font-size: 1rem;
+}
+main .sec3 {
+  margin-top: 20px;
+}
+main .sec3 p {
+  letter-spacing: 2px;
+}
+main .sec3 button {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+main .sec4 {
+  margin-top: 20px;
+}
+main .sec4 svg {
+  width: 60px;
+}
+main .sec4 h1 {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+main .sec4 p {
+  line-height: 1.9rem;
+}
+main .sec5-6 {
+  margin-top: 20px;
+}
+main .sec5-6 .sec5 h1 {
+  letter-spacing: 3px;
+}
+main .sec5-6 .sec5 p {
+  font-size: 1.3rem;
+}
+main .sec5-6 .sec6 h1 {
+  font-weight: 400;
+}
+main .sec7-8 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .sec7-8 .sec7 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30;
+}
+main .sec7-8 .sec7 .svg svg {
+  width: 4rem;
+}
+main .sec7-8 .sec7 .s3 {
+  margin-top: 2rem;
+}
+main .sec7-8 .sec7 .s3 p {
+  font-weight: 500;
+}
+main .sec7-8 .sec7 .s3 h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+main .sec7-8 .sec8 p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+main .sec7-8 .sec8 button {
+  margin-top: 2.5rem;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+main .sec9-10-11-12 {
+  margin-top: 2rem;
+  letter-spacing: 2px;
+}
+main .sec9-10-11-12 .sec9 {
+  margin-top: 2rem;
+  gap: 20px;
+}
+main .sec9-10-11-12 .sec9 .svgAp p {
+  font-size: 2rem;
+  opacity: 0.8;
+  padding-top: 0.5rem;
+}
+main .sec9-10-11-12 .sec9 .pp p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+main .sec9-10-11-12 .sec9 .cdiv {
+  margin-top: 1.5rem;
+}
+main .sec9-10-11-12 .sec9 .cdiv .div1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  border-radius: 50px;
+}
+main .sec9-10-11-12 .sec9 .cdiv .div1 p {
+  text-align: center;
+  padding-top: 9px;
+}
+main .sec9-10-11-12 .sec10 {
+  margin-top: 2rem;
+}
+main .sec9-10-11-12 .sec10 h1 {
+  font-size: 1.8rem;
+}
+main .sec9-10-11-12 .sec10 button {
+  padding: 7px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+main .sec9-10-11-12 .sec11 {
+  margin-top: 2rem;
+}
+main .sec9-10-11-12 .sec11 h1 {
+  font-size: 1.8rem;
+}
+main .sec9-10-11-12 .sec12 {
+  margin-top: 2rem;
+}
+main .sec9-10-11-12 .sec12 h1 {
+  font-size: 1.8rem;
+}
+main .sec13 {
+  margin-top: 2rem;
+  align-items: center;
+}
+main .sec13 .pa a {
+  text-decoration: underline;
+}
+main .sec13 .pf {
+  word-spacing: 15px;
+}
+
+@media (min-width: 1080px) {
+  main {
+    padding: 40px;
+  }
+  main .sec1 svg {
+    width: 60px;
+  }
+  main .sec1 .link {
+    font-size: 20px;
+    gap: 70px;
+  }
+  main .sec2 p {
+    padding-top: 3rem;
+  }
+  main .sec2 h1 {
+    width: 60%;
+    font-size: 7rem;
+  }
+  main .sec2 img {
+    margin-top: 20px;
+  }
+  main .sec3-4 {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  main .sec3-4 .line {
+    height: initial;
+    width: 1px;
+    margin: 10px;
+    border-color: black;
+    margin-left: -20px;
+  }
+  main .sec3-4 .sec3 {
+    width: 70%;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  main .sec3-4 .sec3 h1 {
+    font-size: 5rem;
+    font-weight: 400;
+  }
+  main .sec3-4 .sec4 {
+    width: 40%;
+    padding-left: 10px;
+  }
+  main .sec3-4 .sec4 .line {
+    align-self: stretch;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.516);
+    margin-left: 10px;
+  }
+  main .sec5-6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  main .sec5-6 .line {
+    border-color: black;
+  }
+  main .sec5-6 .sec5 {
+    width: 40%;
+    top: 0;
+  }
+  main .sec5-6 .sec5 h1 {
+    font-size: 4rem;
+  }
+  main .sec5-6 .sec5 p {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  main .sec5-6 .sec6 {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  main .sec5-6 .sec6 video {
+    width: 400px;
+    object-fit: cover;
+  }
+  main .sec7-8 {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+  main .sec7-8 .line {
+    display: block;
+    height: initial;
+    border-color: black;
+  }
+  main .sec7-8 .sec7 {
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+  main .sec7-8 .sec7 .svg {
+    margin-top: 10rem;
+  }
+  main .sec7-8 .sec7 .svg svg {
+    width: 5rem;
+  }
+  main .sec7-8 .sec7 .s3 h1 {
+    font-size: 5rem;
+    line-height: normal;
+  }
+  main .sec7-8 .sec7 .s3 h1 br {
+    display: none;
+  }
+  main .sec7-8 .sec8 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+  }
+  main .sec7-8 .sec8 p {
+    font-size: 1.6rem;
+  }
+  main .sec9-10-11-12 {
+    display: flex;
+    gap: 7rem;
+  }
+  main .sec9-10-11-12 .sec9 {
+    justify-content: space-between;
+    width: 30%;
+  }
+  main .sec9-10-11-12 .line {
+    display: none;
+  }
+  main .sec9-10-11-12 .line1 {
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  main .sec13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

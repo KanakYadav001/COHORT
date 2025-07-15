@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+    gap:4rem;
+    flex-wrap: wrap;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.card{
+    width: 300px;
+    height: fit-content;
+   border-radius: 1rem;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   padding: 1rem;
+
+
+   .header{
+    width: 100%;
+     display: flex;
+    justify-content: space-between;
+    
+    button{
+        width: fit-content;
+        border: none;
+        background-color: rgb(127, 250, 152);
+        padding: 0px 5px;
+        border-radius: 2rem;
+        color : white;
+        
+    }
+   }
+
+   .user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+
+
+    
+
+        img{
+            width: 150px;
+            height : 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: top;
+         }
+   }
+
+   .service{
+    display: flex;
+    gap: 15px;
+
+    div{
+        width: fit-content;
+        border: 1px solid rgba(0, 0, 0, 0.285);
+        padding: 1px 10px;
+        border-radius: 1rem;
+    }
+    .extra{
+        background-color: rgb(39, 197, 255);
+        color: white;
+        border: none;
+    }
+   }
+
+   p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+   }
+   hr{
+    margin-top: 10px;
+    width: 40%;
+   }
+   .btn{
+    padding: 10px;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+   }
+}

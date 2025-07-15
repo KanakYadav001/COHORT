@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.img{
+   height: 100%;
+   gap: 20px;
+    width: 100%; 
+    display: grid;
+            grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+            "i"
+            "j"  
+            ;
+
+
+    img{
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        
+}
+.class-a{
+    grid-area: a;
+}
+.class-b{
+    grid-area: b;
+}
+.class-c{
+    grid-area: c;
+}
+.class-d{
+    grid-area: d;
+}
+.class-e{
+    grid-area: e;
+}
+.class-f{
+    grid-area: f;
+}
+.class-g{
+    grid-area: g;
+}
+.class-h{
+    grid-area: h;
+}
+.class-i{
+    grid-area: i;
+}
+.class-j{
+    grid-area: j;
+}
+}
+@media (min-width : 1080px){
+.img{
+     grid-template-areas:
+        "a a b c"
+        "a a d e"
+        "f g j j"
+        "h i j j" ;
+}  
+}
+
+
+img:hover{
+    scale: (1.05);
+}

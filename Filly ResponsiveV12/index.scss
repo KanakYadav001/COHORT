@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(250, 249, 246);
+}
+
+.line {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.34);
+}
+main {
+  padding: 20px;
+
+  .link {
+    margin-top: 10px;
+  }
+  .sec2 {
+    margin-top: 20px;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .sec3 {
+    margin-top: 20px;
+
+    p {
+      letter-spacing: 2px;
+    }
+
+    button {
+      margin-top: 20px;
+
+      padding: 5px;
+      background-color: black;
+      color: white;
+      width: fit-content;
+      border-radius: 5px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .sec4 {
+    margin-top: 20px;
+    svg {
+      width: 60px;
+    }
+    h1 {
+      letter-spacing: 2px;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    p {
+      line-height: 1.9rem;
+    }
+  }
+
+  .sec5-6 {
+    margin-top: 20px;
+
+    .sec5 {
+      h1 {
+        letter-spacing: 3px;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+
+    .sec6 {
+      h1 {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .sec7-8 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .sec7 {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 30;
+      .svg {
+        svg {
+          width: 4rem;
+        }
+      }
+      .s3 {
+        margin-top: 2rem;
+
+        p {
+          font-weight: 500;
+        }
+        h1 {
+          font-size: 3rem;
+          font-weight: 500;
+          line-height: 3rem;
+        }
+      }
+    }
+
+    .sec8 {
+      p {
+        font-size: 1.2rem;
+        opacity: 0.7;
+      }
+
+      button {
+        margin-top: 2.5rem;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        width: fit-content;
+        border-radius: 5px;
+        letter-spacing: 2px;
+      }
+    }
+  }
+
+  .sec9-10-11-12 {
+  margin-top: 2rem;
+   letter-spacing: 2px;
+    .sec9 {
+        margin-top: 2rem;
+      gap: 20px;
+      .svgAp {
+        p {
+          font-size: 2rem;
+          opacity: 0.8;
+          padding-top: 0.5rem;
+        }
+      }
+
+      .pp {
+        p {
+          font-size: 1.2rem;
+          opacity: .7;
+        }
+      }
+      .cdiv{
+        margin-top: 1.5rem;
+        .div1{
+          width: 40px;
+          height: 40px;
+          border : 1px solid rgba(0, 0, 0, 0.575);
+          border-radius: 50px;
+
+          p{
+            text-align: center;
+            padding-top: 9px;
+          }
+        }
+      }
+    }
+
+   .sec10{
+    margin-top: 2rem;
+    h1{
+        font-size: 1.8rem;
+    }
+    
+
+    button{
+       
+        padding: 7px;
+        background-color: black;
+        color: white;
+        width: fit-content;
+        border-radius: 5px;
+        letter-spacing: 2px;
+    }
+   }
+  .sec11{
+    margin-top: 2rem;
+    h1{
+        font-size: 1.8rem;
+    }
+
+  }
+  .sec12{
+     margin-top: 2rem;
+      h1{
+        font-size: 1.8rem;
+    }
+  }
+
+  }
+.sec13{
+    margin-top: 2rem;
+    align-items: center;
+   .pa{
+     a{
+        text-decoration: underline;
+     }
+   }
+   .pf{
+       word-spacing: 15px;
+   }
+}
+  
+}
+
+@media (min-width: 1080px) {
+  main {
+    padding: 40px;
+
+    .sec1 {
+      svg {
+        width: 60px;
+      }
+
+      .link {
+        font-size: 20px;
+        gap: 70px;
+      }
+    }
+
+    .sec2 {
+      p {
+        padding-top: 3rem;
+      }
+
+      h1 {
+        width: 60%;
+        font-size: 7rem;
+      }
+
+      img {
+        margin-top: 20px;
+      }
+    }
+
+    .sec3-4 {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+
+      .line {
+        height: initial;
+        width: 1px;
+        margin: 10px;
+        border-color: black;
+        margin-left: -20px;
+      }
+
+      .sec3 {
+        width: 70%;
+        justify-content: space-between;
+        padding: 10px;
+
+        h1 {
+          font-size: 5rem;
+          font-weight: 400;
+        }
+      }
+
+      .sec4 {
+        width: 40%;
+        padding-left: 10px;
+
+        .line {
+          align-self: stretch;
+          width: 100%;
+          border-color: rgba(0, 0, 0, 0.516);
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .sec5-6 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      .line {
+        border-color: black;
+      }
+      .sec5 {
+        width: 40%;
+        top: 0;
+        h1 {
+          font-size: 4rem;
+        }
+        p {
+          width: 80%;
+          font-size: 1.5rem;
+        }
+      }
+      .sec6 {
+        display: flex;
+        width: 70%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        video {
+          width: 400px;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .sec7-8 {
+      flex-direction: row;
+      margin-top: 3rem;
+
+      .line {
+        display: block;
+        height: initial;
+        border-color: black;
+      }
+      .sec7 {
+        width: 70%;
+        display: flex;
+
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-self: stretch;
+        .svg {
+          margin-top: 10rem;
+          svg {
+            width: 5rem;
+          }
+        }
+        .s3 {
+          h1 {
+            font-size: 5rem;
+            line-height: normal;
+            br {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .sec8 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40%;
+
+        p {
+          font-size: 1.6rem;
+        }
+      }
+
+    
+    }
+
+    .sec9-10-11-12{
+        display: flex;
+        gap : 7rem;
+
+        .sec9{
+            justify-content: space-between;
+            width: 30%;
+        }
+        .line{
+            display: none;
+        }
+        .line1{
+            margin-top: 20px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+    }
+    .sec13{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  }
+}

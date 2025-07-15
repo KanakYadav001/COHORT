@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgba(128, 128, 128, 0.605);
+  width: 300px;
+  height: 150px;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box .downbar {
+  width: 100%;
+  background-color: gray;
+  height: 10px;
+  border-radius: 6rem;
+}
+.box .downbar .progress {
+  background-color: green;
+  width: 0px;
+  height: 10px;
+}
+.box .percent {
+  align-self: flex-end;
+}
+.box .nameAbutton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .nameAbutton button {
+  background-color: green;
+  border: none;
+  border-radius: 1rem;
+  padding: 10px;
+  color: white;
+  transition: all linear 0.1s;
+}
+
+button:active {
+  scale: 0.9;
+}
