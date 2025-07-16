@@ -1,41 +1,31 @@
 class library{
+
     constructor(){
-        this.booksArr = []
+        this.books = [];
     }
-    addBooks(books){
-      this.booksArr.push(...books);
+    addBook(book){
+        this.books.push(book);
     }
+    ShowBook(){
+        this.books.forEach(function(book,index){
+          console.log(` ${index+1} )  ${book.name} , ${book.author}`);
+        })
 
-    ListAllBooks(){
-         this.booksArr.forEach(function(book,index){
-         console.log(` ${index +1} ) Book Name is ${BookInfo.Bname} and this Author is ${BookInfo.author}`);
-         })
     }
 }
-class BookInfo{
-  constructor(Bname,author,pages,price,uid){
-    this.Bname = Bname;
-    this.author = author;
-    this.pages = pages;
-    this.price = price;
-    this.Buid = uid;
-    this.status = false
-  }
 
-
-  isstatus(){
-    this.status = !this.status ;
-  }
-
-
+class book{
+    constructor(name,Bno,author,TotalPage){
+           this.name = name;
+           this.Bno = Bno;
+           this.author = author;
+           this.TotalPage = TotalPage;
+    }
 }
 
-
-let Booklibrary  = new library();
-
-let book1 = new BookInfo("Health is wealth","Kanka Yadav","250","200Rupee","mnbt67890ygbn");
-let book2 = new BookInfo("Health is wealth","Kanka Yadav","250","200Rupee","mnbt67890ygbn");
-let book3 = new BookInfo("Health is wealth","Kanka Yadav","250","200Rupee","mnbt67890ygbn");
-
-
-Booklibrary.addBooks([book1,book2,book3]);
+let delhi  = new library();
+let book1 = new book("Health is Wealth","ijhy789oij","Kanak",270);
+let book2 = new book("69","bt6789ih","Vaibhav",69);
+delhi.addBook(book1);
+delhi.addBook(book2);
+delhi.ShowBook();
