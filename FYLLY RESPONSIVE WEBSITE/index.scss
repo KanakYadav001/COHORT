@@ -11,25 +11,22 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.1rem;
   padding: 0.7rem;
-  
 }
 
-header{
+header {
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 
-
-  
-  .cfoot{
+  .cfoot {
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 
-    p{
+    p {
       font-size: 0.9rem;
     }
-    button{
+    button {
       width: fit-content;
       padding: 6px 5px;
       border-radius: 0.5rem;
@@ -42,7 +39,6 @@ header{
 main {
   margin-top: 2.5rem;
   .sec1 {
-    
     width: 100%;
     .img1 {
       img {
@@ -100,8 +96,6 @@ main {
         justify-content: space-between;
       }
     }
-
-   
   }
 
   .sec3 {
@@ -309,88 +303,87 @@ main {
     }
   }
 
-  .sec7-8{
+  .sec7-8 {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
     margin-bottom: 4rem;
     gap: 20px;
     width: 100%;
-    .sec7{
+    .sec7 {
       width: 100%;
-      img{
+      img {
         width: 100%;
       }
     }
 
-    .sec8{
+    .sec8 {
       display: flex;
       flex-direction: column;
-      gap:20px;
-       hr{
+      gap: 20px;
+      hr {
         opacity: 0.3;
-       }
-      .c8{
-           display: flex;
-           flex-direction: column;
-           gap:10px;
-          p{
-            font-size: 0.9rem;
-          }
-           h3{
-            font-weight: 350 ;
-            font-size: 2rem;
-           }
+      }
+      .c8 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p {
+          font-size: 0.9rem;
+        }
+        h3 {
+          font-weight: 350;
+          font-size: 2rem;
+        }
       }
     }
   }
 
-  .sec9-10{
+  .sec9-10 {
     margin-top: 2rem;
     margin-bottom: 3rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    .sec9{
-      h1{
+    .sec9 {
+      h1 {
         font-size: 3rem;
         font-weight: 350;
       }
 
-      p{
-     font-size: 1.2em;
+      p {
+        font-size: 1.2em;
       }
     }
-    .sec10{
+    .sec10 {
       margin-top: 2rem;
       display: flex;
-     flex-direction: column;
-     gap: 20px;
-      .card{
+      flex-direction: column;
+      gap: 20px;
+      .card {
         display: flex;
         flex-direction: column;
-        gap:20px;
-        p{
+        gap: 20px;
+        p {
           font-size: 1.7rem;
           font-weight: 350;
         }
-        img{
+        img {
           width: 100%;
           object-fit: cover;
         }
-        .connect{
+        .connect {
           display: flex;
           align-items: center;
           justify-content: space-between;
 
-          h5{
+          h5 {
             font-weight: 350;
             font-size: 1.1rem;
           }
-
         }
-        .para{
+        .para {
           font-size: 1.2rem;
           opacity: 0.6;
         }
@@ -398,54 +391,53 @@ main {
     }
   }
 
-  .sec11{
+  .sec11 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
-    p{
+    p {
       font-size: 0.9rem;
     }
-    h1{
+    h1 {
       font-weight: 450;
       font-size: 2.3rem;
     }
 
-    .arrAp{
-     display: flex;
-     align-items: center;
-     gap:10px;
-      .arsvg{
+    .arrAp {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .arsvg {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 40px;
         height: 40px;
         border-radius: 50%;
-       
+
         background-color: black;
 
-
-        svg{
+        svg {
           color: aliceblue;
         }
       }
     }
   }
 
-   .foot{
+  .foot {
     margin-top: 2rem;
-   }
-   footer{
+  }
+  footer {
     padding-bottom: 1rem;
     padding-top: 1rem;
     display: flex;
     justify-content: space-between;
 
-    p{
+    p {
       font-size: 0.8rem;
     }
-   }
+  }
 }
 
 @media (min-width: 1080px) {
@@ -453,20 +445,17 @@ main {
     padding: 2.7rem;
   }
 
-  header{
-
-    .img-header{
-      img{
+  header {
+    .img-header {
+      img {
         width: 5rem;
       }
     }
-    .cfoot{
+    .cfoot {
       gap: 2rem;
     }
   }
   main {
-    
-
     .sec2 {
       flex-direction: row-reverse;
 
@@ -599,108 +588,99 @@ main {
         }
       }
     }
-.parent{
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-    .sec7-8{
-      width: 65%;
-     display: flex;
-     justify-content: flex-end;
-    .sec7{
-      display: flex;
-        justify-content: flex-end;
-      img{
-        width: 50%;
-        
-      }
-      
-    }
-
-    .sec8{
+    .parent {
       width: 100%;
-
-      .c8{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        .cc8{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          gap:20px;
-        }
-      }
-    }
-  }
-}
-
-.sec9-10{
-  .sec9{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    h1{
-      width: 50%;
-      font-size: 7rem;
-
-    }
-    p{
-      margin-top: auto;
-      width: 50%;
-      font-size: 1.3rem;
-      
-    }
-
-   
-
-  }
-
-   .sec10{
-    margin-top: 3rem;
       display: flex;
-      flex-direction: row;
-      gap:5rem;
-      
-      .card{
-        width: 300px;
+      justify-content: flex-end;
+      .sec7-8 {
+        width: 65%;
+        display: flex;
+        justify-content: flex-end;
+        .sec7 {
+          display: flex;
+          justify-content: flex-end;
+          img {
+            width: 50%;
+          }
+        }
 
-        p{
-          br{
-            display: none;
+        .sec8 {
+          width: 100%;
+
+          .c8 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .cc8 {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 20px;
+            }
           }
         }
       }
     }
-}
 
-.parent1{
-  margin-top: 6rem;
-  display: flex;
- justify-content: flex-end;
-   
+    .sec9-10 {
+      .sec9 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
-  .sec11{
-    width: 50%;
+        h1 {
+          width: 50%;
+          font-size: 7rem;
+        }
+        p {
+          margin-top: auto;
+          width: 50%;
+          font-size: 1.3rem;
+        }
+      }
 
-    h1{
-      font-size: 4rem;
+      .sec10 {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+
+        .card {
+          width: 300px;
+
+          p {
+            br {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .parent1 {
+      margin-top: 6rem;
+      display: flex;
+      justify-content: flex-end;
+
+      .sec11 {
+        width: 50%;
+
+        h1 {
+          font-size: 4rem;
+        }
+      }
+    }
+
+    footer {
+      margin-top: 3rem;
+      background-color: rgba(128, 128, 128, 0.411);
+      color: aliceblue;
+      padding: 1.5rem;
+      p {
+        font-size: 1.5rem;
+      }
     }
   }
-}
-
-
-footer{
-  margin-top: 2rem;
-background-color: rgba(128, 128, 128, 0.653);
-color: aliceblue;
-padding: 1.5rem;
-p{
-  font-size: 1.5rem;
-}
-}
-}
 }
